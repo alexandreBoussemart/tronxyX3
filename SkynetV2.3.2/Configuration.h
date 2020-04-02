@@ -492,7 +492,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {100,  100, 400, 95}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {100,  100, 400, 94.3709}
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -948,7 +948,7 @@
 // @section temperature
 
 // Preheat Constants
-#define PREHEAT_1_TEMP_HOTEND 190
+#define PREHEAT_1_TEMP_HOTEND 200
 #define PREHEAT_1_TEMP_BED     60
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
