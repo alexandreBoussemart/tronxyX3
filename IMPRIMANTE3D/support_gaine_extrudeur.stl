@@ -1,0 +1,170 @@
+solid support_gaine_extrudeur
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 0.0 0.0 0.0
+    vertex 0.0 0.0 19.999999999999996
+  endloop
+endfacet
+facet normal -1.0 0.0 0.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 0.0 12.999999999999998 0.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 3.0 8.0 0.0
+    vertex 3.0 0.0 19.999999999999996
+    vertex 3.0 0.0 0.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 3.0 0.0 19.999999999999996
+    vertex 3.0 8.0 0.0
+    vertex 3.0 8.0 19.999999999999996
+  endloop
+endfacet
+facet normal -0.0 -1.0 -0.0
+  outer loop
+    vertex 3.0 0.0 19.999999999999996
+    vertex 0.0 0.0 0.0
+    vertex 3.0 0.0 0.0
+  endloop
+endfacet
+facet normal -0.0 -1.0 -0.0
+  outer loop
+    vertex 0.0 0.0 0.0
+    vertex 3.0 0.0 19.999999999999996
+    vertex 0.0 0.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 -1.0 0.0
+  outer loop
+    vertex 24.877615170506925 10.0 19.999999999999996
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 24.877615170506925 10.0 0.0
+  endloop
+endfacet
+facet normal 0.0 -1.0 0.0
+  outer loop
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 24.877615170506925 10.0 19.999999999999996
+    vertex 4.000000000000001 10.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 3.0 0.0 19.999999999999996
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 0.0 0.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 3.0 0.0 19.999999999999996
+    vertex 3.0 8.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 3.0 8.0 19.999999999999996
+    vertex 4.000000000000001 10.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 4.000000000000001 10.0 19.999999999999996
+    vertex 24.877615170506925 12.999999999999998 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 1.0
+  outer loop
+    vertex 24.877615170506925 12.999999999999998 19.999999999999996
+    vertex 4.000000000000001 10.0 19.999999999999996
+    vertex 24.877615170506925 10.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 0.0 12.999999999999998 0.0
+    vertex 3.0 8.0 0.0
+    vertex 0.0 0.0 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 3.0 8.0 0.0
+    vertex 0.0 12.999999999999998 0.0
+    vertex 3.9999999999999996 10.0 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 0.0 12.999999999999998 0.0
+    vertex 24.877615170506925 12.999999999999998 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 24.877615170506925 12.999999999999998 0.0
+    vertex 24.877615170506925 10.0 0.0
+  endloop
+endfacet
+facet normal 0.0 0.0 -1.0
+  outer loop
+    vertex 3.0 0.0 0.0
+    vertex 0.0 0.0 0.0
+    vertex 3.0 8.0 0.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 24.877615170506925 12.999999999999998 0.0
+    vertex 24.877615170506925 10.0 19.999999999999996
+    vertex 24.877615170506925 10.0 0.0
+  endloop
+endfacet
+facet normal 1.0 0.0 0.0
+  outer loop
+    vertex 24.877615170506925 10.0 19.999999999999996
+    vertex 24.877615170506925 12.999999999999998 0.0
+    vertex 24.877615170506925 12.999999999999998 19.999999999999996
+  endloop
+endfacet
+facet normal 0.8944271909999156 -0.4472135954999583 -3.128186981072286e-17
+  outer loop
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 3.0 8.0 19.999999999999996
+    vertex 3.0 8.0 0.0
+  endloop
+endfacet
+facet normal 0.8944271909999156 -0.4472135954999583 -3.128186981072286e-17
+  outer loop
+    vertex 3.0 8.0 19.999999999999996
+    vertex 3.9999999999999996 10.0 0.0
+    vertex 4.000000000000001 10.0 19.999999999999996
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 24.877615170506925 12.999999999999998 0.0
+    vertex 0.0 12.999999999999998 0.0
+  endloop
+endfacet
+facet normal 0.0 1.0 0.0
+  outer loop
+    vertex 24.877615170506925 12.999999999999998 0.0
+    vertex 0.0 12.999999999999998 19.999999999999996
+    vertex 24.877615170506925 12.999999999999998 19.999999999999996
+  endloop
+endfacet
+endsolid support_gaine_extrudeur
