@@ -441,7 +441,7 @@
 #define USE_YMIN_PLUG
 #define USE_ZMIN_PLUG
 //#define USE_XMAX_PLUG
-//#define USE_YMAX_PLUG
+#define USE_YMAX_PLUG
 //define USE_ZMAX_PLUG
 
 // coarse Endstop Settings
@@ -461,7 +461,7 @@
 // Mechanical endstop with COM to ground and NC to Signal uses "false" here (most common setup).
 #define X_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
 #define Y_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
-#define Z_MIN_ENDSTOP_INVERTING true // set to true to invert the logic of the endstop.
+#define Z_MIN_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
 #define X_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
 #define Y_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
 #define Z_MAX_ENDSTOP_INVERTING false // set to true to invert the logic of the endstop.
@@ -728,10 +728,10 @@
 
 // Travel limits after homing (units are in mm)
 #define X_MAX_POS     200
-#define X_MIN_POS     -23
-#define Y_MAX_POS     160
-#define Y_MIN_POS     0
-#define Z_MAX_POS     200
+#define X_MIN_POS     -5
+#define Y_MAX_POS     200
+#define Y_MIN_POS     -45
+#define Z_MAX_POS     180
 #define Z_MIN_POS   0
 
 /**
