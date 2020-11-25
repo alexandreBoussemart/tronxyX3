@@ -1,0 +1,4 @@
+Sources for TronXY E3D v6 plus BLTouch plus 40mm Part Cooling Fan
+
+E3D Hotend Adapter for Tronxy X3 (https://www.thingiverse.com/thing:2203334)
+Folger Tech Effector and Sensor Holder Remix (https://www.thingiverse.com/thing:1897989)
