@@ -557,10 +557,10 @@
 
 // The BLTouch probe emulates a servo probe.
 // The default connector is SERVO 0. Set Z_ENDSTOP_SERVO_NR below to override.
-//#define BLTOUCH
+#define BLTOUCH
 
 // Z Servo Probe, such as an endstop switch on a rotating arm.
-//#define Z_ENDSTOP_SERVO_NR 0
+#define Z_ENDSTOP_SERVO_NR 0
 //#define Z_SERVO_ANGLES {70,0} // Z Servo Deploy and Stow angles
 
 // Enable if you have a Z probe mounted on a sled like those designed by Charles Bell.
@@ -587,9 +587,9 @@
 
 
 
-//#define X_PROBE_OFFSET_FROM_EXTRUDER -50  // X offset: -left  +right  [of the nozzle]
-//#define Y_PROBE_OFFSET_FROM_EXTRUDER -13  // Y offset: -front +behind [the nozzle]
-//#define Z_PROBE_OFFSET_FROM_EXTRUDER -4.19   // Z offset: -below +above  [the nozzle]
+#define X_PROBE_OFFSET_FROM_EXTRUDER -50  // X offset: -left  +right  [of the nozzle]
+#define Y_PROBE_OFFSET_FROM_EXTRUDER -13  // Y offset: -front +behind [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -4.19   // Z offset: -below +above  [the nozzle]
 
 
 // X and Y axis travel speed (mm/m) between probes
@@ -644,7 +644,7 @@
 
 // Enable Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN to use the Z_MIN_PIN for your Z_MIN_PROBE.
 // The Z_MIN_PIN will then be used for both Z-homing and probing.
-//#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
+#define Z_MIN_PROBE_USES_Z_MIN_ENDSTOP_PIN
 
 // To use a probe you must enable one of the two options above!
 
@@ -804,7 +804,7 @@
  */
 //#define AUTO_BED_LEVELING_3POINT
 //#define AUTO_BED_LEVELING_LINEAR
-//#define AUTO_BED_LEVELING_BILINEAR
+#define AUTO_BED_LEVELING_BILINEAR
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
@@ -820,10 +820,10 @@
   #define ABL_GRID_MAX_POINTS_Y ABL_GRID_MAX_POINTS_X
 
   // Set the boundaries for probing (where the probe can reach).
-  #define LEFT_PROBE_BED_POSITION 0
-  #define RIGHT_PROBE_BED_POSITION 200
-  #define FRONT_PROBE_BED_POSITION 0
-  #define BACK_PROBE_BED_POSITION 200
+ #define LEFT_PROBE_BED_POSITION 50
+  #define RIGHT_PROBE_BED_POSITION 150
+  #define FRONT_PROBE_BED_POSITION 13
+  #define BACK_PROBE_BED_POSITION 187
 
   // The Z probe minimum outer margin (to validate G29 parameters).
   #define MIN_PROBE_EDGE 10
@@ -889,7 +889,7 @@
 // - If stepper drivers time out, it will need X and Y homing again before Z homing.
 // - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).
 // - Prevent Z homing when the Z probe is outside bed area.
-//#define Z_SAFE_HOMING
+#define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT (X_MAX_POS / 2)    // X point for Z homing when homing all axis (G28).
